@@ -13,4 +13,12 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+
+    <style name="AppTheme.Picker">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textSize">10sp</item>
+        <item name="colorControlNormal">#aaaaaa</item>
+    </style>
 </resources>
