@@ -2,7 +2,7 @@
 
 + ConstraintLayout
 + Custom Font
-+ Handler
++ Handler : 요즘은 runOnUiThread 로 thread-runnable 내부에서 메인스레드로 접근시켜서 ui로 이어주는것이 가능함
 + SharedPreferences
 + Theme
 + AlertDialog
