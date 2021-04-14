@@ -1,4 +1,4 @@
-package com.com.fastcampus_2
+package com.com.secret_diary
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
