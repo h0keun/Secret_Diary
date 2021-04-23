@@ -1,4 +1,4 @@
-### kotlin_project_2 - 비밀 다이어리
+### Secret_Diary
 
 + ConstraintLayout
 + Custom Font
