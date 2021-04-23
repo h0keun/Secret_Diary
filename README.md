@@ -42,4 +42,4 @@
 + xml에서 Button background 색상이 변하지 않아서 Button > androidx.appcompat.widget.AppCompatButton 으로 선언하고 색상 지정함
 
 + SharedPreference와 boolean 이용해서 요리조리 예외처리 해주면서 자물쇠 기능(Unlock, change passwort)구현
-+ Handler-Runnable-SharedPreference 이용해서 작성중인 다이어리 내용을 5초 간격으로 저장해줌
++ Handler-Runnable-SharedPreference 이용해서 작성중인 다이어리 내용이 5초동안 변화가 없으면 저장해줌
