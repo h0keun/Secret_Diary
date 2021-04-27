@@ -45,3 +45,5 @@
 
 + SharedPreference와 boolean 이용해서 요리조리 예외처리 해주면서 자물쇠 기능(Unlock, change passwort)구현
 + Handler-Runnable-SharedPreference 이용해서 작성중인 다이어리 내용이 5초동안 변화가 없으면 저장해줌
+
+💡 SharedPreference 에서 commit()과 apply()의 차이는??? 
