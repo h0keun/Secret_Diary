@@ -14,8 +14,10 @@
 + UI꾸미기
 + 비밀번호 저장, 변경 기능
 + 다이어리 내용 영구저장  
-💡 실시간 저장 : Runnable, Handler 이용해서 5초 간격으로 자동저장
+💡 실시간 저장 : Runnable, Handler, Looper 이용해서 5초 간격으로 자동저장
 ```KOTLIN
+    private val handler = Handler(Looper.getMainLooper())
+    ...
     private fun initDetailEditText() {
         val detail = getSharedPreferences("diary", Context.MODE_PRIVATE).getString("detail", "")
         diaryEditText.setText(detail)
