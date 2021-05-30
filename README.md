@@ -37,7 +37,9 @@
     }
 ```
 [여기 참조해서 Thread-Handler-Runnable 쭉 확인해볼것](https://recipes4dev.tistory.com/143)
+
 <img src="https://user-images.githubusercontent.com/63087903/119832555-3ea56580-bf39-11eb-98c5-32e845d158a9.jpg" width="200" height="430"> <img src="https://user-images.githubusercontent.com/63087903/119832547-3d743880-bf39-11eb-89b4-6fe4a2d05c96.jpg" width="200" height="430"> <img src="https://user-images.githubusercontent.com/63087903/119832552-3ea56580-bf39-11eb-8dd0-501aaf5a0f6f.jpg" width="200" height="430">
+
 ### [2021-04-23]
 
 + ConstraintLayout 속성중에 app:layout_constraintVertical_bias="0.45" 비율로 위치조정, chainStyle = packed로 붙임
