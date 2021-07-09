@@ -176,7 +176,7 @@
     이때 핸들러와 addTextChangedListener를 사용하여 다이어리 내용이 변경될 때마다 내용이 저장되도록 하였으며,  
     다이어리 내용이 변경될 때마다 매번 새로 저장하기에는 효율이 좋지 않아서 사용자가 텍스트 입력을 끝내고 
     0.5초동안 아무런 입력을 하지 않을 때 비로소 다이어리 내용을 저장하는 방식을 구현하였다.
-    ```KOTLN
+    ```KOTLIN
     class DiaryActivity : AppCompatActivity() {
 
         private val handler = Handler(Looper.getMainLooper()) // 메인 루퍼를 넣어주면 메인 스레드와 연결
